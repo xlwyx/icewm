@@ -1,0 +1,10 @@
+# This is an example for icewm 2.9.5 toolbar definition file.
+# It will be installed as /usr/share/icewm/toolbar.
+# Place your variants in /etc/icewm or in $HOME/.icewm since
+# modifications to this file will be overwritten when you reinstall icewm.
+#
+prog lxterminal utilities-terminal lxterminal
+prog opera web-browser xdg-open opera
+prog "TaskManager" /usr/share/icons/Papirus/24x24/apps/htop.svg lxterminal -e htop
+
+

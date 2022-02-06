@@ -1,0 +1,7 @@
+#!/bin/bash
+sleep 1
+pcmanfm --desktop &
+picom &
+pulseaudio -D &
+nitrogen --restore &
+fcitx &
