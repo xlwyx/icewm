@@ -1,3 +1,3 @@
-prog lxterminal utilities-terminal lxterminal
 prog "opera" /usr/share/icons/Papirus/24x24/apps/opera.svg opera
-prog "TaskManager" /usr/share/icons/Papirus/24x24/apps/htop.svg lxterminal -e htop
+prog "flameshot" /usr/share/icons/Papirus/24x24/apps/flameshot.svg flameshot gui
+prog "TaskManager" /usr/share/icons/Papirus/24x24/apps/htop.svg kitty -e htop
