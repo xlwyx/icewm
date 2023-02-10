@@ -1,3 +1,3 @@
-prog "opera" /usr/share/icons/Papirus/24x24/apps/opera.svg opera
-prog "flameshot" /usr/share/icons/Papirus/24x24/apps/flameshot.svg flameshot gui
-prog "TaskManager" /usr/share/icons/Papirus/24x24/apps/htop.svg kitty -e htop
+prog "Firefox" /usr/share/icons/Papirus/24x24/apps/opera.svg firefox
+prog "screenshot" /usr/share/icons/Papirus/24x24/apps/flameshot.svg ~/./screenshot
+prog "TaskManager" /usr/share/icons/Papirus/24x24/apps/htop.svg Alacritty -e htop
