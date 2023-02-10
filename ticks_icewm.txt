@@ -4,5 +4,5 @@
 
 ## Applications list.
 
-icewm lxterminal mc ranger nitrogen papirus-icon-theme adapta-gtk-theme leafpad (* mousepad, gedit, medit, etc..)
+icewm lxterminal mc ranger nitrogen papirus-icon-theme Alacritty adapta-gtk-theme leafpad (* mousepad, gedit, medit, etc..)
 lxappearance
