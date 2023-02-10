@@ -2,7 +2,7 @@
 sleep 1
 pcmanfm --desktop &
 picom &
-pulseaudio -D &
+~/.pipewire-pulse &
 nitrogen --restore &
 xscreensaver -nosplash &
-# fcitx &
+fcitx &
