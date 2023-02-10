@@ -5,8 +5,7 @@
 #
 prog "xterm" xterm xterm
 prog urxvt xterm urxvt -bg black -cr green -fg white -C -sl 500
-prog gedit fte gedit
-prog NEdit nedit nedit
+prog leafpad fte leafpad
 prog Firefox mozilla firefox
 prog Hexchat xchat hexchat
 prog Gimp gimp gimp
