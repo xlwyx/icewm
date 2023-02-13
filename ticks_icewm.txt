@@ -5,7 +5,7 @@
 ## Applications list.
 
 icewm pcmanfm feh scrot lm_sensors xplayer lxterminal mc compton papirus-icon-theme Alacritty adapta-gtk-theme leafpad (* mousepad, gedit, medit, etc..)
-lxappearance
+lxappearance ttf-nerd-fonts-symbols ttf-dejavu ttf-droid
 
 ## coppy the files.
 mkdir -p .icewm/ && cp -r icewm/* .icewm/
