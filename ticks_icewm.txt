@@ -4,9 +4,11 @@
 
 ## Applications list.
 
-icewm lxterminal mc nitrogen papirus-icon-theme Alacritty adapta-gtk-theme leafpad (* mousepad, gedit, medit, etc..)
+icewm lxterminal mc compton papirus-icon-theme Alacritty adapta-gtk-theme leafpad (* mousepad, gedit, medit, etc..)
 lxappearance
 
+## coppy the files.
+mkdir -p .icewm/ && cp -r icewm/* .icewm/
 
 ## In case of installing picom, for its correct operation; it is configured in:
 doas nano/vim /usr/share/examples/picom/picom.sample.conf
