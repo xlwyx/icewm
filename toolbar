@@ -1,3 +1,3 @@
-prog "Firefox" /usr/share/icons/Papirus/24x24/apps/opera.svg firefox
-prog "screenshot" /usr/share/icons/Papirus/24x24/apps/flameshot.svg ~/./screenshot
-prog "TaskManager" /usr/share/icons/Papirus/24x24/apps/htop.svg Alacritty -e htop
+prog "Firefox" /usr/share/icons/Papirus/24x24/apps/firefox-bin.svg firefox
+prog "Screenshot" /usr/share/icons/Papirus/24x24/apps/screengrab.svg ~/./screenshot
+prog "Task Manager" /usr/share/icons/Papirus/24x24/apps/htop.svg alacritty -e htop
