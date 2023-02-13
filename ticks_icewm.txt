@@ -4,36 +4,21 @@
 
 ## Applications list.
 
-icewm lxterminal mc compton papirus-icon-theme Alacritty adapta-gtk-theme leafpad (* mousepad, gedit, medit, etc..)
+icewm pcmanfm feh scrot lm_sensors xplayer lxterminal mc compton papirus-icon-theme Alacritty adapta-gtk-theme leafpad (* mousepad, gedit, medit, etc..)
 lxappearance
 
 ## coppy the files.
 mkdir -p .icewm/ && cp -r icewm/* .icewm/
 
-## In case of installing picom, for its correct operation; it is configured in:
-doas nano/vim /usr/share/examples/picom/picom.sample.conf
-## On artix:
-doas vi/nano /etc/xdg/picom.conf
-    -- On Shadows
-    # Blue color value of shadow (0.0 - 1.0, defaults to 0).
-    shadow-blue = 4
-    # Hex string color value of shadow (#000000 - #FFFFFF, defaults to #000000). This option will override options set shadow-(red/green/blue)
-    shadow-color = "#726467"
- -- On Transparency/Opacity
-    inactive-opacity-override = true
-    # inactive-opacity-override = false;
-    opacity-rule = [
-      "80:class_g = 'alacritty'",
-      "88:class_g = 'firefox'",
-      "76:class_g = 'rofi'",
-      "94:class_g = 'leafpad'",
-      "78:class_g = 'lxappearance'"]
-### someone data ###
-
-mkdir -p .config/i3blocks/      ## make a dir..
-i3blocks.conf --> cp i3-gaps/i3blocks.conf ~/.config/i3blocks/i3blocks.conf  [For this fisrt, You have create with: < mkdir ·config/i3blocks > ]
-For the i3block's scrips; first, you have to create folder with: mkdir ~/.config/scripts/ --> Here, copy the scripts so: cp ~/i3_config/scripts/* ·/.config/scripts/ . Before, extract it: unzip scripts.zip
 .....
+# start in .xinitrc.
+pacman install -S xorg-xinit
+cp -r /etc/X11/xinit/xinitrc .xinitrc
+
+---- Add ----
+# in .xinitrc.
+exec icewm-session
+
 .....
 
 Thanks Guys!
