@@ -3,11 +3,12 @@
 # Place your variants in /etc/icewm or in $HOME/.icewm since
 # modifications to this file will be overwritten when you reinstall icewm.
 #
-prog "xterm" xterm xterm
-prog urxvt xterm urxvt -bg black -cr green -fg white -C -sl 500
+
+prog Alacritty Alacritty alacritty
 prog leafpad fte leafpad
-prog Firefox mozilla firefox
-prog Hexchat xchat hexchat
+prog firefox mozilla firefox
+prog Thunderbird mail thunderbird
+prog Telegram chat telegram-desktop
 prog Gimp gimp gimp
 includeprog icewm-menu-fdo --sep-before --no-sep-others
 menufile Programs folder programs
