@@ -8,17 +8,18 @@
 # You'll have to omit XK_ prefixs and to replace XF86XK_ prefixes by
 # XF86. Valid modifiers are Alt, Ctrl, Shift, Meta, Super and Hyper.
 #
-key "Ctrl+Alt+T"            Alacritty
-key "Super+Y"               pcmanfm
-key "Super+E"               Leafpad
-key "Super+C"               galculator
-key "Ctrl+Alt+S"            ~/.screenshot
-key "Super+B"               Firefox
-key "Super+T"               telegram-desktop
+key "Ctrl+Alt+T"  alacritty
+key "Super+Y"     pcmanfm
+key "Super+E"     leafpad
+key "Super+C"     galculator
+key "Ctrl+Alt+S"  ~/./screenshot
+key "Alt+W"       firefox
+key "Ctrl+Alt+C"  galculator
+key "Super+T"     telegram-desktop
+key "Ctrl+X"      xkill
 
-
-key "Super+KP_Subtract"     amixer sset Master 5%-
-key "Super+KP_Add"          amixer sset Master 5%+
+key "Shift+F11"  amixer sset Master 5%-
+key "Shift+F10"  amixer sset Master 5%+
 
 # "Multimedia key" bindings for Xorg. Gather the keycodes of your
 # advanced function keys by watching the output of the xev command whilest
