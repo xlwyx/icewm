@@ -12,9 +12,9 @@ key "Ctrl+Alt+T"  alacritty
 key "Super+Y"     pcmanfm
 key "Super+E"     leafpad
 key "Super+C"     galculator
+kwy "Super+V"     notepadqq
 key "Ctrl+Alt+S"  ~/./screenshot
-key "Alt+W"       firefox
-key "Ctrl+Alt+C"  galculator
+key "Ctrl+Alt+X"  xslockmore
 key "Super+T"     telegram-desktop
 key "Ctrl+X"      xkill
 
