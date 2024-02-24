@@ -1,11 +1,11 @@
-# This is an example for icewm 2.9.5 menu definition file.
+# This is an example for icewm 3.4.5 menu definition file.
 # It will be installed as /usr/share/icewm/menu.
 # Place your variants in /etc/icewm or in $HOME/.icewm since
 # modifications to this file will be overwritten when you reinstall icewm.
 #
 
 prog Alacritty Alacritty alacritty
-prog leafpad fte leafpad
+prog leafpad fte mousepad
 prog firefox mozilla firefox
 prog Thunderbird mail thunderbird
 prog Telegram chat telegram-desktop
