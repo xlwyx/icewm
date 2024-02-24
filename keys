@@ -1,4 +1,4 @@
-# This is an example for icewm 2.9.5 hotkey definition file.
+# This is an example for icewm 3.4.5 hotkey definition file.
 # It will be installed as /usr/share/icewm/keys.
 # Place your variants in /etc/icewm or in $HOME/.icewm since
 # modifications to this file will be overwritten when you reinstall icewm.
@@ -10,13 +10,13 @@
 #
 key "Ctrl+Alt+T"  alacritty
 key "Super+Y"     pcmanfm
-key "Super+E"     leafpad
+key "Super+E"     mosepad
 key "Super+C"     galculator
 kwy "Super+V"     notepadqq
 key "Ctrl+Alt+S"  ~/./screenshot
-key "Ctrl+Alt+X"  xslockmore
+key "Ctrl+Alt+X"  slock
 key "Super+T"     telegram-desktop
-key "Ctrl+X"      xkill
+key "Ctrl+X"      signal-sesktop
 
 key "Shift+F11"  amixer sset Master 5%-
 key "Shift+F10"  amixer sset Master 5%+
