@@ -1,3 +1,8 @@
-prog "Firefox" /usr/share/icons/Papirus/24x24/apps/firefox-bin.svg firefox
+# This is an example for icewm 3.4.5 toolbar definition file.
+# It will be installed as /usr/share/icewm/toolbar.
+# Place your variants in /etc/icewm or in $HOME/.icewm since
+# modifications to this file will be overwritten when you reinstall icewm.
+#
+prog "Firefox" /usr/share/icons/Papirus/24x24/apps/firefox-icon.svg firefox
 prog "Screenshot" /usr/share/icons/Papirus/24x24/apps/screengrab.svg ~/./screenshot
-prog "Task Manager" /usr/share/icons/Papirus/24x24/apps/htop.svg alacritty -e htop
+prog "Task Manager" /usr/share/icons/Papirus/24x24/apps/htop.svg urxvt -e htop
